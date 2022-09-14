@@ -1,0 +1,20 @@
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: queuestorage
+spec:
+  type: bindings.azure.storagequeues
+  version: v1
+  metadata:
+  - name: storageAccount
+    value: "crmdevsa01"
+  - name: storageAccessKey
+    value: ""
+  - name: queue
+    value: "verygoodqueue"
+  - name: ttlInSeconds
+    value: "60"
+  - name: decodeBase64
+    value: "true"
+scopes:
+- QueueStorageDapr

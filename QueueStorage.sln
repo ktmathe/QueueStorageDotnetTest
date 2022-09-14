@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueStorageDotnetSdk", "QueueStorageDotnetSdk\QueueStorageDotnetSdk.csproj", "{12CEC6C7-61A9-4099-A6C0-7BAF477CCA27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueStorageDapr", "QueueStorageDapr\QueueStorageDapr.csproj", "{86E347D8-E348-4122-9A35-E79FE42FF068}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FED76E2D-5617-4B30-8A0E-85F64EC3BCAE}"
+	ProjectSection(SolutionItems) = preProject
+		tye.yaml = tye.yaml
+		components\queuestorage.yaml = components\queuestorage.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12CEC6C7-61A9-4099-A6C0-7BAF477CCA27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12CEC6C7-61A9-4099-A6C0-7BAF477CCA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12CEC6C7-61A9-4099-A6C0-7BAF477CCA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12CEC6C7-61A9-4099-A6C0-7BAF477CCA27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86E347D8-E348-4122-9A35-E79FE42FF068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E347D8-E348-4122-9A35-E79FE42FF068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E347D8-E348-4122-9A35-E79FE42FF068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E347D8-E348-4122-9A35-E79FE42FF068}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71FBE68E-DEF0-4C1A-B19C-795B1EF266AC}
+	EndGlobalSection
+EndGlobal
